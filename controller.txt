@@ -1,0 +1,5 @@
+El controlador lo dividimos en tres areas, RUTAS, CONTROLLER Y SERVICIOS, cada una cumple una responsabilidad muy importante y debe respetarse de esa manera
+El unico que se relaciona con la vista es el router, que ese pasa por un controlador, y este hace uso del servicio, y si necesita hacerse una consulta a la bd el servicio hace esa consulta y envia una respuesta que va en sentido contrario, bd, servicios, controlador, router, vistas.
+
+
+nota: utils se usa para utilidades justamente, nada que influya en el flujo de capas va a utils
