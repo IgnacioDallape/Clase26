@@ -20,6 +20,8 @@ const addProductsService = async (name, price, stock, id) => {
 
 export { getProductsService, getProductsByIdService, addProductsService }
 
+//este modelo de servicio puede hacer de todo, por ejemplo hacer llamadas, mandar mensajes, es decir, tendria funciones para hacer esas cosas
+
 
 
 
